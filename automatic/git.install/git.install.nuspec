@@ -6,7 +6,7 @@
     <title>Git (Install)</title>
     <version>2.16.2</version>
     <authors>The Git Development Community</authors>
-    <owners>chocolatey</owners>
+    <owners>local</owners>
     <summary>Git for Windows offers a native set of tools that bring the full feature set of the Git SCM to Windows</summary>
     <description><![CDATA[
 Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate user interfaces for experienced Git users and novices alike.
@@ -33,10 +33,10 @@ Git for Windows focuses on offering a lightweight, native set of tools that brin
 
 ]]></description>
     <projectUrl>https://git-for-windows.github.io/</projectUrl>
-    <projectSourceUrl>https://github.com/git-for-windows/git</projectSourceUrl>
+    <projectSourceUrl>https://github.com/Microsoft/git</projectSourceUrl>
     <docsUrl>http://git-scm.com/doc</docsUrl>
     <mailingListUrl>http://groups.google.com/group/git-for-windows</mailingListUrl>
-    <bugTrackerUrl>https://github.com/git-for-windows/git/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/Microsoft/git/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/git.install</packageSourceUrl>
     <tags>git vcs dvcs version-control msysgit admin foss cross-platform cli</tags>
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>

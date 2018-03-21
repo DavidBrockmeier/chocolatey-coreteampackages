@@ -32,6 +32,7 @@ ketarin/soluto.xml
 *.log.full
 automatic/_output/
 .vscode
+.vs
 /Update-AUPackages.md
 /Update-History.md
 /Update-Force-Test*.md

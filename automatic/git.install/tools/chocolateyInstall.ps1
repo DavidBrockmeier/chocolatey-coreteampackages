@@ -12,8 +12,7 @@ $packageArgs = @{
     PackageName    = 'git.install'
     FileType       = 'exe'
     SoftwareName   = 'Git version *'
-    File           = Get-Item $toolsPath\*-32-bit.exe
-    File64         = Get-Item $toolsPath\*-64-bit.exe
+    File           = Get-Item $toolsPath\*-64-bit.exe
     SilentArgs     = "/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/NOCANCEL", "/SP-", "/LOG", (Get-InstallComponents $pp)
 }
 Install-ChocolateyInstallPackage @packageArgs

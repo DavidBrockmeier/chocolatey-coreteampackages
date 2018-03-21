@@ -33,10 +33,10 @@ Git for Windows focuses on offering a lightweight, native set of tools that brin
 
 ]]></description>
     <projectUrl>https://git-for-windows.github.io/</projectUrl>
-    <projectSourceUrl>https://github.com/git-for-windows/git</projectSourceUrl>
+    <projectSourceUrl>https://github.com/Microsoft/git</projectSourceUrl>
     <docsUrl>http://git-scm.com/doc</docsUrl>
     <mailingListUrl>http://groups.google.com/group/git-for-windows</mailingListUrl>
-    <bugTrackerUrl>https://github.com/git-for-windows/git/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/Microsoft/git/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/git</packageSourceUrl>
     <tags>git vcs dvcs version-control msysgit foss cross-platform cli</tags>
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
