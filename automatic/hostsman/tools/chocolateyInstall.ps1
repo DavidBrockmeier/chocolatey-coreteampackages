@@ -1,10 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop'
 
+$toolsPath = Split-Path -parent $MyInvocation.MyCommand.Definition
+
 $packageArgs = @{
-  packageName    = 'hostsman'
-  url            = 'http://hostsman2.it-mate.co.uk/HostsMan_4.8.106.zip'
-  checksum       = '36ca1ab6a2872919540d98bfad5d24cad93a380013aa74bf7618db24c015c1f5'
-  checksumType   = 'sha256'
-  unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
+  packageName  = $env:ChocolateyPackageName
+  fileType     = 'zip'
+  file         = "$toolsPath\HostsMan_4.7.105.zip"
+  destination  = $toolsPath
+  softwareName = 'hostsman*'
 }
-Install-ChocolateyZipPackage @packageArgs
+
+Get-ChocolateyUnzip @packageArgs
+Remove-Item $toolsPath\*.zip -ea 0
